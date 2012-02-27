@@ -10,7 +10,7 @@
       padding: 0;
     }
     html {
-      background: #000 url('img/bg-make.jpg') center 48px no-repeat;
+      background: #000 url('img/bg-make.jpg') center 72px no-repeat;
       height: 101%;
     }
     body {
@@ -34,22 +34,31 @@
           font-size: 18px;
         }
       .utility {
+        background: #fff url('img/bg-grey-stripes.jpg');
         float: left;
         margin-top: 79px;
       }
       .social li {
         list-style: none;
       }
+      .social a.fb {
+        padding-left: 20px;
+        background: url('img/fb_16.png') no-repeat left;
+      }
+      .social a.tw {
+        padding-left: 20px;
+        background: url('img/tw_16.png') no-repeat left;
+      }
     .bd .container {
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.8);
       overflow: hidden; 
     }
       .intro {
-        background: #fff;
+        background: #fff url('img/bg-red-stripe.jpg') 100% 0 repeat-y;
         float: right;
         width: 540px;
         margin: 24px 60px 160px 0;
-        padding: 20px;
+        padding: 24px 36px 24px 12px;
       }
         .intro p {
           margin-bottom: 1em;
@@ -75,21 +84,21 @@
           margin-top: 6px;
           margin-left: 24px;
           font-size: 16px;
-          padding: 6px 24px 6px 0;
+          padding: 6px 22px 6px 0;
         }
         .nav a.active {
-          border-color: #c30;
+          border-color: #b52115;
         }
     .ft{
       clear: both;
       margin-top: 24px;
     }
     .ft .container {
-      background: #c00;
+      background: #b52115;
       color: #fff;
     }
       .ft p {
-        padding: 6px 10px;
+        padding: 3px 10px;
       }
   </style>
 </head>
@@ -103,8 +112,8 @@
         </div>
       	<div class="utility">
       	  <ul class="social">
-      	  	<li><a>Like us on facebook</a></li>
-      	  	<li><a>Follow us on twitter</a></li>
+      	  	<li><a class="fb">Like us on facebook</a></li>
+      	  	<li><a class="tw">Follow us on twitter</a></li>
       	  </ul>
       	</div>
       </div>
