@@ -3,17 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Splash</title>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
   <style>
     * {
       margin: 0;
       padding: 0;
     }
     html {
-      background: url('img/bg-make.jpg') center 0 no-repeat;
+      background: url('img/bg-make.jpg') center 48px no-repeat;
       height: 101%;
     }
     body {
-      font: 13px/1.5 Helvetica, arial, sans-serif;
+      font: 16px/1.4 "PT Sans", sans-serif;
     }
     .container {
       width: 1003px;
@@ -25,11 +26,17 @@
     }
       .logo {
         float: right;
+        text-align: right;
+        padding-top: 24px;
         margin-right: 60px;
       }
+        .tagline {
+          margin-top: -24px;
+          font-size: 18px;
+        }
       .utility {
         float: left;
-        margin-top: 60px;
+        margin-top: 80px;
       }
       .social li {
         list-style: none;
@@ -93,7 +100,7 @@
     <div class="hd" role="banner">
       <div class="container">
       	<div class="logo">
-          <p><img src="img/splash.png" alt="splash-logo" width="199"/></p>
+          <p><img src="img/splash.png" alt="splash-logo" width="166"/></p>
           <p class="tagline">A do-it-yourself mindset to learning</p>
         </div>
       	<div class="utility">
