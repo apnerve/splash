@@ -1,85 +1,133 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-  <meta charset='utf-8'>
-
-  <title>apnerve/splash @ GitHub</title>
-
-  <style type="text/css">
+	<meta charset="UTF-8">
+	<title>Splash</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      background: url('img/bg-make.jpg') center 0 no-repeat;
+      height: 101%;
+    }
     body {
-      margin-top: 1.0em;
-      background-color: #be4ff4;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
+      font: 13px/1.5 Helvetica, arial, sans-serif;
     }
-    #container {
-      margin: 0 auto;
-      width: 700px;
+    .container {
+      width: 1003px;
+      margin: auto;
     }
-    h1 { font-size: 3.8em; color: #41b00b; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #41b00b; }
-    h3 { text-align: center; color: #41b00b; }
-    a { color: #41b00b; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
+    .hd {
+      background: #fff;
+      overflow: hidden;
+    }
+      .logo {
+        float: right;
+        margin-right: 60px;
+      }
+      .utility {
+        float: left;
+        margin-top: 60px;
+      }
+      .social li {
+        list-style: none;
+      }
+    .bd .container {
+      background: rgba(0,0,0,0.6);
+      overflow: hidden; 
+    }
+      .intro {
+        background: #fff;
+        float: right;
+        width: 540px;
+        margin: 24px 60px 160px 0;
+        padding: 20px;
+      }
+      .nav {
+        background: #000;
+        clear: both;
+        overflow: hidden;
+      }
+        .nav ul {
+          float: right;
+          margin-right: 60px;
+        }
+        .nav li {
+          list-style: none;
+          color: #fff;
+          display: inline;
+        }
+        .nav a {
+          border-top: 2px solid;
+          color: #fff;
+          float: left;
+          margin-top: 6px;
+          margin-left: 24px;
+          font-size: 16px;
+          padding: 6px 24px 6px 0;
+        }
+        .nav a.active {
+          border-color: #c30;
+        }
+    .ft{
+      clear: both;
+      margin-top: 24px;
+    }
+    .ft .container {
+      background: #c00;
+      color: #fff;
+    }
+      .ft p {
+        padding: 6px 10px;
+      }
+    
+    p {
+      margin-bottom: 1em;
+    }
   </style>
 </head>
-
 <body>
-  <a href="https://github.com/apnerve/splash"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="container">
-
-    <div class="download">
-      <a href="https://github.com/apnerve/splash/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/apnerve/splash/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+	<div>
+    <div class="hd" role="banner">
+      <div class="container">
+      	<div class="logo">
+          <p><img src="img/splash.png" alt="splash-logo" width="199"/></p>
+          <p class="tagline">A do-it-yourself mindset to learning</p>
+        </div>
+      	<div class="utility">
+      	  <ul class="social">
+      	  	<li><a>Like us on facebook</a></li>
+      	  	<li><a>Follow us on twitter</a></li>
+      	  </ul>
+      	</div>
+      </div>
     </div>
-
-    <h1><a href="https://github.com/apnerve/splash">splash</a>
-      <span class="small">by <a href="https://github.com/apnerve">apnerve</a></span></h1>
-
-    <div class="description">
-      Website for splash project
+    <div class="bd" role="main">
+      <div class="container">
+      	<div class="intro">
+      	  <p>We believe that doing things by juming in the eep end is the quickest and most efficient way to learn. you make a splash, perhaps not aesthetically, initially, but what you learn, you never forget. We just enable that learning through do-it-yourself projects in the worlds of design, technology, food, arts, health, science, business and communication. Learn by doing with focus on creating high impace on spaces and ideas that will make a difference to the world</p>
+      	  <p>Our projects range from bubble soap, detergents, and tissue-paper airtlanes to what to do to keep aging high-tech gadgets alive.</p>
+      	  <p>Our goal is to grow a culture and ocmmunity that believes in bettering ourselves, our environment, our educational system by undertaking amazing projects in bacjyards, basements, and garages.</p>
+      	</div>
+      	<div class="nav">
+      	  <ul>
+      	  	<li><a class="active">About us</a></li>
+      	  	<li><a>Team</a></li>
+      	  	<li><a>Projects</a></li>
+      	  	<li><a>Contact us</a></li>
+      	  </ul>
+      	</div>
+      </div>
     </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-      <h2>Contact</h2>
-      <p>Praveen (apnerve@gmail.com)<br/>      </p>
-    
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="https://github.com/apnerve/splash/zipball/master">zip</a> or
-      <a href="https://github.com/apnerve/splash/tarball/master">tar formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/apnerve/splash</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="https://github.com/apnerve/splash">apnerve/splash</a>
+    <div class="ft">
+      <div class="container">
+      	<p>
+      		<small>Copyright &copy; 2012 Splash</small>
+      	</p>
+      </div>
     </div>
-
   </div>
-
 </body>
 </html>
